@@ -1037,3 +1037,4 @@ D:\!Kuliah\Progmob new\Phoneword\Phoneword\obj\Debug\net8.0-android\stamp\_Conve
 D:\!Kuliah\Progmob new\Phoneword\Phoneword\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\!Kuliah\Progmob new\Phoneword\Phoneword\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\!Kuliah\Progmob new\Phoneword\Phoneword\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\!Kuliah\Progmob new\Phoneword\Phoneword\obj\Debug\net8.0-android\Phoneword.sourcelink.json

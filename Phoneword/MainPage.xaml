@@ -7,6 +7,26 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+            <HorizontalStackLayout>
+                <Label Text="Username : " VerticalOptions="Center"/>
+                <Entry x:Name="entryusername" Placeholder="Enter Your username" HorizontalTextAlignment="Center" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Spacing="20">
+                <Button
+                        x:Name="HellorBtn"
+                        Text="Hello" 
+                        SemanticProperties.Hint="Hello Button"
+                        Clicked="btnHello_Clicked" 
+                        />
+                   
+                <Button
+                        x:Name="SubmitBtn"
+                        Text="submit" 
+                        SemanticProperties.Hint="Hello Button"
+                        Clicked="btnSubmit_Clicked" />
+                
+            </HorizontalStackLayout>
+            
             <Image
                 Source="dotnet_bot.png"
                 HeightRequest="185"

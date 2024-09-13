@@ -20,6 +20,16 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
+        private void btnHello_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("hello", "Wellcome to MAU", "OK");
+        }
+
+        private void btnSubmit_Clicked(object sender, EventArgs e)
+        {
+            string username = entryusername.Text;
+            DisplayAlert("Welcome", $"Hello {username}", "OK");
+        }
     }
 
 }
