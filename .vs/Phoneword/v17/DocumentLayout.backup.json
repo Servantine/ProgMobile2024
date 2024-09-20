@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,6 +39,14 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -50,8 +58,7 @@
               "RelativeToolTip": "Phoneword\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-13T08:12:13.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T08:12:13.066Z"
             },
             {
               "$type": "Document",
@@ -63,8 +70,7 @@
               "RelativeToolTip": "Phoneword\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-13T08:12:12.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T08:12:12.243Z"
             },
             {
               "$type": "Document",
@@ -74,10 +80,9 @@
               "RelativeDocumentMoniker": "Phoneword\\PhonewordTranslator.cs",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Phoneword\\PhonewordTranslator.cs",
               "RelativeToolTip": "Phoneword\\PhonewordTranslator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T08:11:19.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T08:11:19.247Z"
             },
             {
               "$type": "Document",
@@ -87,10 +92,9 @@
               "RelativeDocumentMoniker": "Phoneword\\MainPage.xaml",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Phoneword\\MainPage.xaml",
               "RelativeToolTip": "Phoneword\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-13T07:23:11.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T07:23:11.287Z"
             },
             {
               "$type": "Document",
@@ -100,7 +104,7 @@
               "RelativeDocumentMoniker": "Phoneword\\MainPage.xaml.cs",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Phoneword\\MainPage.xaml.cs",
               "RelativeToolTip": "Phoneword\\MainPage.xaml.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAIwDAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T08:46:06.417Z",
               "EditorCaption": ""

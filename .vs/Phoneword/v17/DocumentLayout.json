@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "D:\\!Kuliah\\Progmob new\\Phoneword\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notes\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notes\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notes\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\AppShell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notes\\AppShell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\AppShell.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notes\\AppShell.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notes\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notes\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{03175CB9-3E7B-4DC7-95E1-5FD10F89628C}|Phoneword\\Phoneword.csproj|d:\\!kuliah\\progmob new\\phoneword\\phoneword\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03175CB9-3E7B-4DC7-95E1-5FD10F89628C}|Phoneword\\Phoneword.csproj|solutionrelative:phoneword\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,8 +69,107 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Notes\\MauiProgram.cs",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\MauiProgram.cs",
+              "RelativeToolTip": "Notes\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:03:23.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Notes\\MainPage.xaml.cs",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\MainPage.xaml.cs",
+              "RelativeToolTip": "Notes\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:03:23.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Notes\\MainPage.xaml",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\MainPage.xaml",
+              "RelativeToolTip": "Notes\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-20T07:03:23.029Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Notes\\AppShell.xaml.cs",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\AppShell.xaml.cs",
+              "RelativeToolTip": "Notes\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:03:22.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Notes\\AppShell.xaml",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\AppShell.xaml",
+              "RelativeToolTip": "Notes\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-20T07:03:22.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Notes\\App.xaml.cs",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\App.xaml.cs",
+              "RelativeToolTip": "Notes\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:03:22.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\App.xaml",
+              "RelativeDocumentMoniker": "Notes\\App.xaml",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Notes\\App.xaml",
+              "RelativeToolTip": "Notes\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-20T07:03:21.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\Phoneword\\App.xaml",
               "RelativeDocumentMoniker": "Phoneword\\App.xaml",
@@ -50,12 +177,11 @@
               "RelativeToolTip": "Phoneword\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-13T08:12:13.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T08:12:13.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\Phoneword\\AppShell.xaml",
               "RelativeDocumentMoniker": "Phoneword\\AppShell.xaml",
@@ -63,44 +189,41 @@
               "RelativeToolTip": "Phoneword\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-13T08:12:12.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T08:12:12.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "PhonewordTranslator.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\Phoneword\\PhonewordTranslator.cs",
               "RelativeDocumentMoniker": "Phoneword\\PhonewordTranslator.cs",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Phoneword\\PhonewordTranslator.cs",
               "RelativeToolTip": "Phoneword\\PhonewordTranslator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T08:11:19.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T08:11:19.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\Phoneword\\MainPage.xaml",
               "RelativeDocumentMoniker": "Phoneword\\MainPage.xaml",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Phoneword\\MainPage.xaml",
               "RelativeToolTip": "Phoneword\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-13T07:23:11.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T07:23:11.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\Phoneword\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Phoneword\\MainPage.xaml.cs",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\Phoneword\\MainPage.xaml.cs",
               "RelativeToolTip": "Phoneword\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA5wDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T08:46:06.417Z",
               "EditorCaption": ""

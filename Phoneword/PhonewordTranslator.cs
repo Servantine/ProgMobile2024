@@ -39,7 +39,7 @@ namespace Phoneword
         }
 
         static readonly string[] digits = {
-        "ABC", "DEF", "GHI", "JKL", "MNO", "PQRS", "TUV", "WXYZ"
+        "ABC", "DEF", "GHI", "JKL", "MNO", "PQRS", "TUV", "WXYZ", "AVC"
     };
 
         static int? TranslateToNumber(char c)
