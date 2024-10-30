@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="uts.Pages.login"
+             Title="login">
+    <ContentPage.Content>
+        <VerticalStackLayout Padding="20" Spacing="20" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="72210465 - STEFANUS AUDY"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+
+            <Image Source="https://i.pinimg.com/736x/75/bc/fa/75bcfab6c24ba2cfeb6c16c1482c6b5f.jpg" 
+                   Aspect="AspectFill" 
+                   HeightRequest="300"
+                   WidthRequest="200" 
+                   HorizontalOptions="Center" />
+
+            
+            <Button Text="Login" 
+                    FontSize="Medium"
+                    BackgroundColor="#007AFF"
+                    TextColor="White"
+                    CornerRadius="10"
+                    WidthRequest="200"
+                    Clicked="OnLoginButtonClicked" />
+
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

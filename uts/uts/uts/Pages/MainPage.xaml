@@ -1,0 +1,128 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="uts.MainPage"
+             BackgroundColor="#f0f0f5"
+             Title="CategoryPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Category" 
+                     Order="Primary" 
+                     Priority="0"/>
+        <ToolbarItem Text="Courses" 
+             Order="Primary" 
+             Priority="0" 
+             Clicked="OnCoursesButtonClicked"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label Text="Category List" 
+           FontSize="Large" 
+           FontAttributes="Bold" 
+           HorizontalOptions="Center" 
+           Margin="0,20,0,10" />
+
+
+
+            <Label Text="Search Category by ID" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
+
+            <Entry x:Name="CategoryIdEntry" Placeholder="Enter Category ID" Keyboard="Numeric" />
+
+            <Button Text="Search Category" 
+            Clicked="OnSearchCategoryByIdClicked" 
+            BackgroundColor="Blue" 
+            TextColor="White" 
+            Margin="0,10,0,0" />
+
+            <StackLayout x:Name="CategorySearchResultStack" IsVisible="False" Margin="0,10,0,0">
+                <Label Text="Category Search Result:" FontSize="Medium" FontAttributes="Bold" />
+                <Label x:Name="CategorySearchResultLabel" FontSize="Small" TextColor="Black" />
+            </StackLayout>
+
+            <Button Text="Add New Category" 
+            BackgroundColor="Blue" 
+            TextColor="White" 
+            CornerRadius="8" 
+            HorizontalOptions="End" 
+            Margin="10" 
+            Clicked="OnAddCategoryClicked"/>
+            
+            <CollectionView x:Name="CategoriesCollectionView" 
+                    ItemsLayout="VerticalGrid, 2" 
+                    VerticalOptions="FillAndExpand">
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10" 
+                             Margin="5" 
+                             BackgroundColor="LightGray" 
+                             Orientation="Vertical" 
+                             HorizontalOptions="FillAndExpand">
+
+
+                            <Label FontSize="Medium" 
+       FontAttributes="Bold" 
+       TextColor="Black" 
+       HorizontalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Category ID: " />
+                                        <Span Text="{Binding categoryId}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label FontSize="Small" 
+       TextColor="Black" 
+       HorizontalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Name: " />
+                                        <Span Text="{Binding name}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label FontSize="Small" 
+       TextColor="Black" 
+       HorizontalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Description: " />
+                                        <Span Text="{Binding description}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+
+
+                            <HorizontalStackLayout Spacing="5" 
+                                           HorizontalOptions="Center">
+                                <Button Text="Edit" 
+                                BackgroundColor="Yellow" 
+                                TextColor="Black" 
+                                Clicked="OnEditCategoryClicked"
+                                CommandParameter="{Binding .}" 
+                                WidthRequest="50" 
+                                HeightRequest="50"
+                                FontSize="10"/>
+
+                                <Button Text="Delete" 
+                                BackgroundColor="Red" 
+                                TextColor="White" 
+                                Clicked="OnDeleteCategoryClicked"
+                                CommandParameter="{Binding .}" 
+                                WidthRequest="50" 
+                                HeightRequest="50"
+                                FontSize="7"/>
+                            </HorizontalStackLayout>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

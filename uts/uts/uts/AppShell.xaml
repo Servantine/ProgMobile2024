@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Shell
+    x:Class="uts.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:uts"
+    xmlns:pages="clr-namespace:uts.Pages"
+    Shell.FlyoutBehavior="Disabled"
+    Title="uts">
+
+    
+    <Shell.FlyoutHeader>
+        <Label Text="Menu" 
+               FontSize="Title" 
+               HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand" />
+    </Shell.FlyoutHeader>
+
+    <!-- Flyout Items for Navigation -->
+    <FlyoutItem Title="Category" Icon="category_icon.png">
+        <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Courses" Icon="courses_icon.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:CoursesPage}" />
+    </FlyoutItem>
+
+
+</Shell>

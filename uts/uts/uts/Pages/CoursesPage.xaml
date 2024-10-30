@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="uts.Pages.CoursesPage"
+             Title="CoursesPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Category" 
+                     Order="Primary" 
+                     Priority="0"
+                     Clicked="OnCategoryButtonClicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Courses List" 
+       FontSize="Large" 
+       FontAttributes="Bold" 
+       HorizontalOptions="Center" 
+       Margin="0,20,0,10" />
+            
+            <Label Text="Search Course by ID" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,20,0,0" />
+
+            <Entry x:Name="CourseIdEntry" Placeholder="Enter Course ID" Keyboard="Numeric" />
+
+            <Button Text="Search Course" 
+            Clicked="OnSearchCourseByIdClicked" 
+            BackgroundColor="Blue" 
+            TextColor="White" 
+            Margin="0,10,0,0" />
+
+            <StackLayout x:Name="CourseSearchResultStack" IsVisible="False" Margin="0,10,0,0">
+                <Label Text="Course Search Result:" FontSize="Medium" FontAttributes="Bold" />
+                <Label x:Name="CourseSearchResultLabel" FontSize="Small" TextColor="Black" />
+            </StackLayout>
+
+            <Button Text="Add New Courses" 
+        BackgroundColor="Blue" 
+        TextColor="White" 
+        CornerRadius="8" 
+        HorizontalOptions="End" 
+        Margin="10" 
+        Clicked="OnAddCourseClicked">
+                
+            </Button>
+
+
+            <CollectionView x:Name="CoursesCollectionView" 
+                ItemsLayout="VerticalGrid, 2" 
+                VerticalOptions="FillAndExpand">
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10" 
+                         Margin="5" 
+                         BackgroundColor="LightGray" 
+                         Orientation="Vertical" 
+                         HorizontalOptions="FillAndExpand">
+
+
+                            <Label FontSize="Medium" 
+       FontAttributes="Bold" 
+       TextColor="Black" 
+       HorizontalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Course ID: " />
+                                        <Span Text="{Binding courseId}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label FontSize="Small" 
+       TextColor="Black" 
+       HorizontalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Name: " />
+                                        <Span Text="{Binding name}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label FontSize="Small" 
+       TextColor="Black" 
+       HorizontalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Image Name: " />
+                                        <Span Text="{Binding imageName}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label FontSize="Small" 
+       TextColor="Black" 
+       HorizontalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Duration: " />
+                                        <Span Text="{Binding duration}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label FontSize="Small" 
+       TextColor="Black" 
+       HorizontalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Description: " />
+                                        <Span Text="{Binding description}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label FontSize="Small" 
+       TextColor="Black" 
+       HorizontalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Category ID: " />
+                                        <Span Text="{Binding categoryId}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+
+
+                            <HorizontalStackLayout Spacing="5" 
+                                       HorizontalOptions="Center">
+                                <Button Text="Edit" 
+                            BackgroundColor="Yellow" 
+                            TextColor="Black" 
+                            Clicked="OnEditCoursesClicked"
+                            CommandParameter="{Binding .}" 
+                            WidthRequest="50" 
+                            HeightRequest="50"
+                            FontSize="10"/>
+
+                                <Button Text="Delete" 
+                            BackgroundColor="Red" 
+                            TextColor="White" 
+                            Clicked="OnDeleteCoursesClicked"
+                            CommandParameter="{Binding .}" 
+                            WidthRequest="50" 
+                            HeightRequest="50"
+                            FontSize="7"/>
+                            </HorizontalStackLayout>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>
