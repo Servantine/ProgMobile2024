@@ -33,6 +33,30 @@
                 <Label x:Name="CourseSearchResultLabel" FontSize="Small" TextColor="Black" />
             </StackLayout>
 
+            <Label Text="Search Course by Name" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,20,0,0" />
+            <Entry x:Name="CourseNameEntry" 
+           Placeholder="Enter Course Name" 
+           Keyboard="Default" />
+
+            <!-- Search Button -->
+            <Button Text="Search Course by Name" 
+            Clicked="OnSearchCourseByNameClicked" 
+            BackgroundColor="Blue" 
+            TextColor="White" 
+            Margin="0,10,0,0" />
+
+            <!-- Search Result -->
+            <StackLayout x:Name="CourseSearchResultS" 
+                 IsVisible="False" 
+                 Margin="0,10,0,0">
+                <Label Text="Course Search Result:" 
+               FontSize="Medium" 
+               FontAttributes="Bold" />
+                <Label x:Name="CourseSearchResultL" 
+               FontSize="Small" 
+               TextColor="Black" />
+            </StackLayout>
+
             <Button Text="Add New Courses" 
         BackgroundColor="Blue" 
         TextColor="White" 
@@ -119,7 +143,7 @@
                                 <Label.FormattedText>
                                     <FormattedString>
                                         <Span Text="Category ID: " />
-                                        <Span Text="{Binding categoryId}" />
+                                        <Span Text="{Binding Category.categoryId}" />
                                     </FormattedString>
                                 </Label.FormattedText>
                             </Label>

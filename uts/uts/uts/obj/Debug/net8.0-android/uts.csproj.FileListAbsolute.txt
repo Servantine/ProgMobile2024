@@ -1038,3 +1038,4 @@ D:\!Kuliah\Progmob new\Phoneword\uts\uts\uts\obj\Debug\net8.0-android\stamp\_Con
 D:\!Kuliah\Progmob new\Phoneword\uts\uts\uts\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\!Kuliah\Progmob new\Phoneword\uts\uts\uts\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\!Kuliah\Progmob new\Phoneword\uts\uts\uts\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\!Kuliah\Progmob new\Phoneword\uts\uts\uts\obj\Debug\net8.0-android\android\assets\Newtonsoft.Json.dll

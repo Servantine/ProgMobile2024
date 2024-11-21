@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
+using System.Text;
 using System.Threading.Tasks;
 using uts.Models;
 
@@ -103,6 +105,36 @@ namespace uts
                 return false;
             }
         }
+        public async Task<bool> PutCourseWithCategoryIdAsync(Courses course, int categoryId)
+        {
+            try
+            {
+                // Objek payload hanya dengan categoryId
+                var payload = new
+                {
+                    course.courseId,
+                    course.name,
+                    course.imageName,
+                    course.duration,
+                    course.description,
+                    categoryId
+                };
+
+                // Serialisasi payload ke JSON
+                var json = JsonConvert.SerializeObject(payload);
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                // Kirim permintaan PUT ke server
+                var response = await _httpClient.PutAsync($"Courses/{course.courseId}", content);
+
+                return response.IsSuccessStatusCode;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in PutCourseWithCategoryIdAsync: {ex.Message}");
+                return false;
+            }
+        }
         public async Task<bool> DeleteCategoryAsync(int categoryId)
         {
             try
@@ -119,7 +151,7 @@ namespace uts
         {
             try
             {
-                var response = await _httpClient.DeleteAsync($"v1/Courses/{courseId}");
+                var response = await _httpClient.DeleteAsync($"Courses/{courseId}");
                 return response.IsSuccessStatusCode;
             }
             catch (Exception ex)
@@ -157,6 +189,22 @@ namespace uts
             catch (Exception ex)
             {
                 
+            }
+            return null;
+        }
+        public async Task<Courses?> GetCourseByNameAsync(string courseName)
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync($"Courses/search/{courseName}");
+                if (response.IsSuccessStatusCode)
+                {
+                    return await response.Content.ReadFromJsonAsync<Courses>();
+                }
+            }
+            catch (Exception ex)
+            {
+
             }
             return null;
         }

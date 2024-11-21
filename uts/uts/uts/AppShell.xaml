@@ -17,7 +17,7 @@
                VerticalOptions="CenterAndExpand" />
     </Shell.FlyoutHeader>
 
-    <!-- Flyout Items for Navigation -->
+  
     <FlyoutItem Title="Category" Icon="category_icon.png">
         <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
     </FlyoutItem>

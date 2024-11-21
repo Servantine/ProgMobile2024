@@ -72,7 +72,7 @@ public partial class CoursesPage : ContentPage
             imageName = imageName,
             duration = courseDuration,
             description = courseDescription,
-            categoryId = categoryId
+            Category = new Categories { categoryId = categoryId }
         };
 
         
@@ -94,45 +94,65 @@ public partial class CoursesPage : ContentPage
         var course = button?.CommandParameter as Courses;
         if (course == null) return;
 
-        
-        string newName = await DisplayPromptAsync("Edit Course", "Enter the new course name:", initialValue: course.name);
-        if (string.IsNullOrWhiteSpace(newName))
+        // Mengedit nama course
+        string courseName = await DisplayPromptAsync("Edit Course", "Enter the course name:", initialValue: course.name);
+        if (string.IsNullOrWhiteSpace(courseName))
         {
-            await DisplayAlert("Invalid Input", "Please enter a valid name.", "OK");
+            await DisplayAlert("Invalid Input", "Please enter a valid course name.", "OK");
             return;
         }
 
-       
-        string newDescription = await DisplayPromptAsync("Edit Course", "Enter the new course description:", initialValue: course.description);
-        if (string.IsNullOrWhiteSpace(newDescription))
-        {
-            await DisplayAlert("Invalid Input", "Please enter a valid description.", "OK");
-            return;
-        }
+        // Mengedit nama gambar
+        string imageName = await DisplayPromptAsync("Edit Course", "Enter the image name (optional):", initialValue: course.imageName);
 
-      
-        string durationInput = await DisplayPromptAsync("Edit Course", "Enter the new course duration (in hours):", initialValue: course.duration?.ToString());
-        double? newDuration = null;
+        // Mengedit durasi course
+        string durationInput = await DisplayPromptAsync("Edit Course", "Enter the course duration (in hours):", initialValue: course.duration?.ToString());
+        double? courseDuration = null;
         if (!string.IsNullOrWhiteSpace(durationInput) && double.TryParse(durationInput, out double parsedDuration))
         {
-            newDuration = parsedDuration;
+            courseDuration = parsedDuration;
         }
 
-     
-        course.name = newName;
-        course.description = newDescription;
-        course.duration = newDuration;
+        // Mengedit deskripsi course
+        string courseDescription = await DisplayPromptAsync("Edit Course", "Enter the course description:", initialValue: course.description);
 
-        
-        bool success = await _apiService.PutCourseAsync(course);
+        // Daftar kategori yang tersedia (untuk simulasi, bisa diubah dengan data nyata)
+        var categories = await _apiService.GetCategoriesAsync(); // Mendapatkan daftar kategori
+        if (categories == null || !categories.Any())
+        {
+            await DisplayAlert("Error", "No categories available. Please add categories first.", "OK");
+            return;
+        }
+
+        // Menampilkan daftar kategori ke user
+        string categoryList = string.Join("\n", categories.Select(c => $"{c.categoryId}: {c.name}"));
+        await DisplayAlert("Available Categories", $"Here are the available categories:\n\n{categoryList}", "OK");
+
+        // Meminta user untuk memilih kategori
+        string categoryIdInput = await DisplayPromptAsync("Edit Course", "Enter the category ID:", initialValue: course.Category?.categoryId.ToString());
+        if (!int.TryParse(categoryIdInput, out int selectedCategoryId) || !categories.Any(c => c.categoryId == selectedCategoryId))
+        {
+            await DisplayAlert("Invalid Input", "Please enter a valid category ID.", "OK");
+            return;
+        }
+
+        // Mengupdate data course tanpa mengubah properti Category
+        course.name = courseName;
+        course.imageName = imageName;
+        course.duration = courseDuration;
+        course.description = courseDescription;
+
+        // Kirimkan hanya categoryId bersama data lainnya ke server
+        bool success = await _apiService.PutCourseWithCategoryIdAsync(course, selectedCategoryId);
         if (success)
         {
             await DisplayAlert("Success", "Course updated successfully!", "OK");
-            LoadCourses();
+            LoadCourses(); // Memuat ulang daftar course
         }
         else
         {
-            await DisplayAlert("Error", "Failed to update the course.", "OK");
+            await DisplayAlert("Error", "Failed to update the course. Please check your internet connection or try again later.", "OK");
+            Console.WriteLine("Failed to update course: " + course.courseId);
         }
     }
     private async void OnDeleteCoursesClicked(object sender, EventArgs e)
@@ -170,7 +190,7 @@ public partial class CoursesPage : ContentPage
                                                $"Image Name: {course.imageName}\n" +
                                                $"Duration: {course.duration} hours\n" +
                                                $"Description: {course.description}\n" +
-                                               $"Category ID: {course.categoryId}";
+                                               $"Category ID: {(course.Category?.categoryId.ToString() ?? "N/A")}";
             }
             else
             {
@@ -181,6 +201,33 @@ public partial class CoursesPage : ContentPage
         else
         {
             await DisplayAlert("Invalid Input", "Please enter a valid numeric ID.", "OK");
+        }
+    }
+    private async void OnSearchCourseByNameClicked(object sender, EventArgs e)
+    {
+        string courseName = CourseNameEntry.Text;
+
+        if (string.IsNullOrWhiteSpace(courseName))
+        {
+            await DisplayAlert("Invalid Input", "Please enter a valid course name.", "OK");
+            return;
+        }
+
+        var course = await _apiService.GetCourseByNameAsync(courseName);
+        if (course != null)
+        {
+            CourseSearchResultStack.IsVisible = true;
+            CourseSearchResultLabel.Text = $"Course ID: {course.courseId}\n" +
+                                           $"Name: {course.name}\n" +
+                                           $"Image Name: {course.imageName}\n" +
+                                           $"Duration: {course.duration} hours\n" +
+                                           $"Description: {course.description}\n" +
+                                           $"Category ID: {(course.Category?.categoryId.ToString() ?? "N/A")}";
+        }
+        else
+        {
+            await DisplayAlert("Not Found", $"Course with the name '{courseName}' not found.", "OK");
+            CourseSearchResultStack.IsVisible = false;
         }
     }
 

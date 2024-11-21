@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace uts.Models
 {
-    internal class Categories
+    public class Categories
     {
         public int categoryId { get; set; } = 0;
         public string name { get; set; }
