@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5E00F2-BC9A-4012-AE4C-8554EB4DF567}|People\\People.csproj|d:\\!kuliah\\progmob new\\phoneword\\people\\people\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5E00F2-BC9A-4012-AE4C-8554EB4DF567}|People\\People.csproj|solutionrelative:people\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5E00F2-BC9A-4012-AE4C-8554EB4DF567}|People\\People.csproj|d:\\!kuliah\\progmob new\\phoneword\\people\\people\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5E00F2-BC9A-4012-AE4C-8554EB4DF567}|People\\People.csproj|solutionrelative:people\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5E00F2-BC9A-4012-AE4C-8554EB4DF567}|People\\People.csproj|d:\\!kuliah\\progmob new\\phoneword\\people\\people\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5E00F2-BC9A-4012-AE4C-8554EB4DF567}|People\\People.csproj|solutionrelative:people\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5E00F2-BC9A-4012-AE4C-8554EB4DF567}|People\\People.csproj|d:\\!kuliah\\progmob new\\phoneword\\people\\people\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5E00F2-BC9A-4012-AE4C-8554EB4DF567}|People\\People.csproj|solutionrelative:people\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5E00F2-BC9A-4012-AE4C-8554EB4DF567}|People\\People.csproj|d:\\!kuliah\\progmob new\\phoneword\\people\\people\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F5E00F2-BC9A-4012-AE4C-8554EB4DF567}|People\\People.csproj|solutionrelative:people\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5E00F2-BC9A-4012-AE4C-8554EB4DF567}|People\\People.csproj|d:\\!kuliah\\progmob new\\phoneword\\people\\people\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F5E00F2-BC9A-4012-AE4C-8554EB4DF567}|People\\People.csproj|solutionrelative:people\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\People\\AppShell.xaml",
+              "RelativeDocumentMoniker": "People\\AppShell.xaml",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\People\\AppShell.xaml",
+              "RelativeToolTip": "People\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-22T07:34:17.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\People\\App.xaml.cs",
+              "RelativeDocumentMoniker": "People\\App.xaml.cs",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\People\\App.xaml.cs",
+              "RelativeToolTip": "People\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:32:07.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\People\\App.xaml",
+              "RelativeDocumentMoniker": "People\\App.xaml",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\People\\App.xaml",
+              "RelativeToolTip": "People\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-22T07:31:50.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\People\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "People\\MauiProgram.cs",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\People\\MauiProgram.cs",
+              "RelativeToolTip": "People\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:31:26.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonRepository.cs",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\People\\PersonRepository.cs",
+              "RelativeDocumentMoniker": "People\\PersonRepository.cs",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\People\\PersonRepository.cs",
+              "RelativeToolTip": "People\\PersonRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAuwD8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:26:08.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\People\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "People\\Models\\Person.cs",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\People\\People\\Models\\Person.cs",
+              "RelativeToolTip": "People\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:15:45.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

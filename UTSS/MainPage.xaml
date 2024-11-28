@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UTSS.MainPage">
+    <StackLayout Padding="20" Spacing="10">
+        <!-- Title -->
+        <Label Text="Categories" 
+               FontSize="Large" 
+               FontAttributes="Bold" 
+               HorizontalOptions="Center" 
+               Margin="0,0,0,10" />
+
+        <!-- ListView -->
+        <ScrollView>
+    <StackLayout>
+        <ListView x:Name="CategoriesListView" 
+                  ItemTapped="OnCategoryTapped" 
+                  SeparatorVisibility="Default">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" Padding="10" Margin="10,5" Spacing="10" BackgroundColor="White">
+                            <!-- Label Nama Kategori -->
+                            <Label Text="{Binding name}" FontAttributes="Bold" FontSize="5" HorizontalOptions="CenterAndExpand" />
+
+                            <!-- Label Deskripsi Kategori -->
+                            <Label Text="{Binding description}" FontSize="5" TextColor="Gray" HorizontalOptions="CenterAndExpand" />
+
+                            <!-- Tombol Delete untuk Menghapus Kategori -->
+                            <Button Text="Delete" BackgroundColor="Red" TextColor="White" Clicked="OnDeleteClicked" CommandParameter="{Binding categoryId}" HorizontalOptions="Center" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+                </StackLayout>
+        </ScrollView>
+
+
+        <!-- Add New Category Section -->
+        <StackLayout Spacing="10" Padding="10">
+            <Entry x:Name="NewNameEntry" Placeholder="Enter Category Name" />
+            <Entry x:Name="NewDescriptionEntry" Placeholder="Enter Category Description" />
+            <Button Text="Add Category" 
+                    BackgroundColor="#007AFF" 
+                    TextColor="White" 
+                    Clicked="OnAddCategoryClicked" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
