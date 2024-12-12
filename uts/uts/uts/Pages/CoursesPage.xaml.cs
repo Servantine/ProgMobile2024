@@ -11,6 +11,19 @@ public partial class CoursesPage : ContentPage
         _apiService = new ApiService();
         LoadCourses();
     }
+    private async Task<List<Instructors>> LoadInstructorsAsync()
+    {
+        try
+        {
+            var instructors = await _apiService.GetInstructorsAsync();
+            return instructors ?? new List<Instructors>();
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Error", $"Failed to load instructors: {ex.Message}", "OK");
+            return new List<Instructors>();
+        }
+    }
     private async void LoadCourses()
     {
         try
@@ -255,6 +268,68 @@ public partial class CoursesPage : ContentPage
             CourseSearchResultStack.IsVisible = false;
         }
     }
+    private async void OnEnrollInstructorClicked(object sender, EventArgs e)
+    {
+        try
+        {
+            // Ambil courseId dari CommandParameter
+            var button = sender as Button;
+            if (button?.CommandParameter is not int courseId)
+            {
+                await DisplayAlert("Error", "Failed to retrieve course information.", "OK");
+                return;
+            }
+
+            // Ambil daftar instructors
+            var instructors = await LoadInstructorsAsync();
+            if (instructors == null || instructors.Count == 0)
+            {
+                await DisplayAlert("Error", "No instructors available to enroll.", "OK");
+                return;
+            }
+
+            // Tampilkan dropdown untuk memilih instructor
+            var instructorNames = instructors.Select(i => i.userName).ToArray();
+            string selectedInstructorName = await DisplayActionSheet("Select an Instructor", "Cancel", null, instructorNames);
+
+            // Batalkan jika pengguna tidak memilih
+            if (selectedInstructorName == "Cancel" || string.IsNullOrWhiteSpace(selectedInstructorName))
+            {
+                return;
+            }
+
+            // Cari instructorId berdasarkan nama yang dipilih
+            var selectedInstructor = instructors.FirstOrDefault(i => i.userName == selectedInstructorName);
+            if (selectedInstructor == null)
+            {
+                await DisplayAlert("Error", "Invalid instructor selected.", "OK");
+                return;
+            }
+
+            // Membentuk payload untuk API
+            var enrollmentPayload = new
+            {
+                instructorId = selectedInstructor.instructorId,
+                courseId = courseId
+            };
+
+            // Kirim data ke API
+            var isEnrolled = await _apiService.PostEnrollmentAsync(enrollmentPayload);
+            if (isEnrolled)
+            {
+                await DisplayAlert("Success", "Instructor enrolled successfully!", "OK");
+            }
+            else
+            {
+                await DisplayAlert("Error", "Failed to enroll the instructor.", "OK");
+            }
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Error", $"An error occurred: {ex.Message}", "OK");
+        }
+    }
+
 
 
 

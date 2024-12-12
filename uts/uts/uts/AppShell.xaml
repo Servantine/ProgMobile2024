@@ -25,6 +25,8 @@
     <FlyoutItem Title="Courses" Icon="courses_icon.png">
         <ShellContent ContentTemplate="{DataTemplate pages:CoursesPage}" />
     </FlyoutItem>
+    
+    
 
 
 </Shell>

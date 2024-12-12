@@ -6,7 +6,10 @@ namespace uts
     {
         public AppShell()
         {
+
             InitializeComponent();
+
+
         }
     }
 }

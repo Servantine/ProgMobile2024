@@ -58,9 +58,30 @@ namespace uts
                     // Hitung jumlah enrollments untuk setiap course
                     course.EnrollmentCount = enrollments?.Count(e => e.CourseId == course.courseId) ?? 0;
 
-                    // Cari nama instruktur untuk setiap course
-                    var instructorId = enrollments?.FirstOrDefault(e => e.CourseId == course.courseId)?.InstructorId;
-                    course.InstructorName = instructors?.FirstOrDefault(i => i.instructorId == instructorId)?.fullName;
+                    // Dapatkan semua instructorId yang terdaftar untuk course ini
+                    var instructorIds = enrollments?
+                        .Where(e => e.CourseId == course.courseId)
+                        .Select(e => e.InstructorId)
+                        .Distinct()
+                        .ToList();
+
+                    // Cari semua nama instruktur berdasarkan instructorId
+                    if (instructorIds != null)
+                    {
+                        var instructorNames = instructors?
+                            .Where(i => instructorIds.Contains(i.instructorId))
+                            .Select(i => i.fullName)
+                            .ToList();
+
+                        // Gabungkan nama-nama instruktur dengan koma
+                        course.InstructorName = instructorNames != null
+                            ? string.Join(", ", instructorNames)
+                            : string.Empty;
+                    }
+                    else
+                    {
+                        course.InstructorName = string.Empty;
+                    }
                 }
             }
 
@@ -218,6 +239,19 @@ namespace uts
             }
             return null;
         }
+
+        public async Task<bool> PostEnrollmentAsync(object enrollmentPayload)
+        {
+            var response = await _httpClient.PostAsJsonAsync("https://actbackendseervices.azurewebsites.net/api/enrollments", enrollmentPayload);
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<List<Instructors>> GetInstructorsAsync()
+        {
+            return await _httpClient.GetFromJsonAsync<List<Instructors>>("https://actbackendseervices.azurewebsites.net/api/instructors");
+        }
+
+
 
     }
 

@@ -190,6 +190,15 @@ HorizontalOptions="Center">
                             WidthRequest="50" 
                             HeightRequest="50"
                             FontSize="7"/>
+
+                                <Button Text="Daftarkan"
+                                BackgroundColor="Green"
+                                TextColor="White"
+                                Clicked="OnEnrollInstructorClicked"
+                                CommandParameter="{Binding courseId}"
+                                WidthRequest="50"
+                                HeightRequest="50"
+                                FontSize="7"/>
                             </HorizontalStackLayout>
                         </StackLayout>
                     </DataTemplate>
