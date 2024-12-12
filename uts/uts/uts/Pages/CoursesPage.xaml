@@ -148,6 +148,27 @@
                                 </Label.FormattedText>
                             </Label>
 
+                            <Label FontSize="Small" 
+TextColor="Black" 
+HorizontalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Enrollments : " />
+                                        <Span Text="{Binding EnrollmentCount}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label FontSize="Small" 
+TextColor="Black" 
+HorizontalOptions="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Instructor : " />
+                                        <Span Text="{Binding InstructorName}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
 
 
                             <HorizontalStackLayout Spacing="5" 

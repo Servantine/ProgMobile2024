@@ -42,19 +42,26 @@ namespace uts
         }
         public async Task<List<Courses>> GetCoursesAsync()
         {
+            // Ambil data courses
             var courses = await _httpClient.GetFromJsonAsync<List<Courses>>("Courses");
+
+            // Ambil data enrollments
+            var enrollments = await _httpClient.GetFromJsonAsync<List<Enrollments>>("https://actbackendseervices.azurewebsites.net/api/enrollments");
+
+            // Ambil data instructors
+            var instructors = await _httpClient.GetFromJsonAsync<List<Instructors>>("https://actbackendseervices.azurewebsites.net/api/instructors");
 
             if (courses != null)
             {
-                Console.WriteLine("Courses retrieved successfully:");
-                foreach (var coursess in courses)
+                foreach (var course in courses)
                 {
-                    Console.WriteLine($"- {coursess}");
+                    // Hitung jumlah enrollments untuk setiap course
+                    course.EnrollmentCount = enrollments?.Count(e => e.CourseId == course.courseId) ?? 0;
+
+                    // Cari nama instruktur untuk setiap course
+                    var instructorId = enrollments?.FirstOrDefault(e => e.CourseId == course.courseId)?.InstructorId;
+                    course.InstructorName = instructors?.FirstOrDefault(i => i.instructorId == instructorId)?.fullName;
                 }
-            }
-            else
-            {
-                Console.WriteLine("No categories found.");
             }
 
             return courses;

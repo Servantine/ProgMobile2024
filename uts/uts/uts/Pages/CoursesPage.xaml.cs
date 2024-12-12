@@ -15,12 +15,12 @@ public partial class CoursesPage : ContentPage
     {
         try
         {
-            var Courses = await _apiService.GetCoursesAsync();
-            CoursesCollectionView.ItemsSource = Courses;
+            var courses = await _apiService.GetCoursesAsync();
+            CoursesCollectionView.ItemsSource = courses;
         }
         catch (Exception ex)
         {
-            await DisplayAlert("Error", $"Failed to load categories: {ex.Message}", "OK");
+            await DisplayAlert("Error", $"Failed to load courses: {ex.Message}", "OK");
         }
     }
     private async void OnCategoryButtonClicked(object sender, EventArgs e)
@@ -30,64 +30,89 @@ public partial class CoursesPage : ContentPage
     }
     private async void OnAddCourseClicked(object sender, EventArgs e)
     {
-        
-        string courseName = await DisplayPromptAsync("Add Course", "Enter the course name:");
-        if (string.IsNullOrWhiteSpace(courseName))
+        try
         {
-            await DisplayAlert("Invalid Input", "Please enter a valid course name.", "OK");
-            return;
+            // Prompt for course name
+            string courseName = await DisplayPromptAsync("Add Course", "Enter the course name:");
+            if (string.IsNullOrWhiteSpace(courseName))
+            {
+                await DisplayAlert("Invalid Input", "Course name cannot be empty.", "OK");
+                return;
+            }
+
+            // Prompt for image name
+            string imageName = await DisplayPromptAsync("Add Course", "Enter the image name (optional):");
+
+            // Prompt for duration
+            string durationInput = await DisplayPromptAsync("Add Course", "Enter the course duration (in hours):");
+            double? courseDuration = null;
+            if (!string.IsNullOrWhiteSpace(durationInput))
+            {
+                if (double.TryParse(durationInput, out double parsedDuration) && parsedDuration > 0)
+                {
+                    courseDuration = parsedDuration;
+                }
+                else
+                {
+                    await DisplayAlert("Invalid Input", "Please enter a valid positive number for course duration.", "OK");
+                    return;
+                }
+            }
+
+            // Prompt for course description
+            string courseDescription = await DisplayPromptAsync("Add Course", "Enter the course description:");
+
+            // Prompt for category ID
+            string categoryIdInput = await DisplayPromptAsync("Add Course", "Enter the category ID:");
+            int categoryId = 0;
+            if (!string.IsNullOrWhiteSpace(categoryIdInput))
+            {
+                if (int.TryParse(categoryIdInput, out int parsedCategoryId) && parsedCategoryId > 0)
+                {
+                    categoryId = parsedCategoryId;
+                }
+                else
+                {
+                    await DisplayAlert("Invalid Input", "Please enter a valid positive integer for category ID.", "OK");
+                    return;
+                }
+            }
+            else
+            {
+                await DisplayAlert("Invalid Input", "Category ID cannot be empty.", "OK");
+                return;
+            }
+
+            // Create an anonymous object for the API payload
+            var newCourse = new Courses
+            {
+                courseId = 0,
+                name = courseName,
+                imageName = imageName,
+                duration = courseDuration,
+                description = courseDescription,
+                Category = new Categories { categoryId = categoryId } // Map categoryId here
+            };
+
+            // Call API to add course
+            bool success = await _apiService.PostCourseAsync(newCourse);
+            if (success)
+            {
+                await DisplayAlert("Success", "Course added successfully!", "OK");
+                LoadCourses(); // Reload the courses
+            }
+            else
+            {
+                await DisplayAlert("Error", "Failed to add the course. Please try again.", "OK");
+            }
         }
-
-       
-        string imageName = await DisplayPromptAsync("Add Course", "Enter the image name (optional):");
-
-        
-        string durationInput = await DisplayPromptAsync("Add Course", "Enter the course duration (in hours):");
-        double? courseDuration = null;
-        if (!string.IsNullOrWhiteSpace(durationInput) && double.TryParse(durationInput, out double parsedDuration))
+        catch (Exception ex)
         {
-            courseDuration = parsedDuration;
+            await DisplayAlert("Error", $"An unexpected error occurred: {ex.Message}", "OK");
         }
-
-        
-        string courseDescription = await DisplayPromptAsync("Add Course", "Enter the course description:");
-
-        
-        string categoryIdInput = await DisplayPromptAsync("Add Course", "Enter the category ID:");
-        int categoryId = 0;
-        if (!string.IsNullOrWhiteSpace(categoryIdInput) && int.TryParse(categoryIdInput, out int parsedCategoryId))
-        {
-            categoryId = parsedCategoryId;
-        }
-        else
-        {
-            await DisplayAlert("Invalid Input", "Please enter a valid category ID.", "OK");
-            return;
-        }
-
-        
-        var newCourse = new Courses
-        {
-            name = courseName,
-            imageName = imageName,
-            duration = courseDuration,
-            description = courseDescription,
-            Category = new Categories { categoryId = categoryId }
-        };
-
-        
-        bool success = await _apiService.PostCourseAsync(newCourse);
-        if (success)
-        {
-            await DisplayAlert("Success", "Course added successfully!", "OK");
-            LoadCourses();
-        }
-        else
-        {
-            await DisplayAlert("Error", "Failed to add the course.", "OK");
-        }
-
     }
+
+
     private async void OnEditCoursesClicked(object sender, EventArgs e)
     {
         var button = sender as Button;

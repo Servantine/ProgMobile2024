@@ -14,5 +14,9 @@ namespace uts.Models
         public double? duration { get; set; }
         public string? description { get; set; }
         public Categories Category { get; set; }
+
+        // New properties
+        public int EnrollmentCount { get; set; } = 0;
+        public string? InstructorName { get; set; }
     }
 }
