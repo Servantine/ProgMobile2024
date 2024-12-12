@@ -16,11 +16,14 @@ namespace uts
         public ApiService()
         {
             _httpClient = new HttpClient();
-            _httpClient.BaseAddress = new Uri("https://actualbackendapp.azurewebsites.net/api/");
+            _httpClient.BaseAddress = new Uri("https://actbackendseervices.azurewebsites.net/api/");
         }
         public async Task<List<Categories>> GetCategoriesAsync()
         {
-            var categories = await _httpClient.GetFromJsonAsync<List<Categories>>("v1/Categories");
+
+
+            _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", App.AuthToken);
+            var categories = await _httpClient.GetFromJsonAsync<List<Categories>>("categories");
 
             if (categories != null)
             {
@@ -60,7 +63,7 @@ namespace uts
         {
             try
             {
-                var response = await _httpClient.PostAsJsonAsync("v1/Categories", category);
+                var response = await _httpClient.PostAsJsonAsync("categories", category);
                 return response.IsSuccessStatusCode;
             }
             catch (Exception ex)
@@ -84,7 +87,7 @@ namespace uts
         {
             try
             {
-                var response = await _httpClient.PutAsJsonAsync($"v1/Categories/{category.categoryId}", category);
+                var response = await _httpClient.PutAsJsonAsync($"categories/{category.categoryId}", category);
                 return response.IsSuccessStatusCode;
             }
             catch (Exception)
@@ -139,7 +142,7 @@ namespace uts
         {
             try
             {
-                var response = await _httpClient.DeleteAsync($"v1/Categories/{categoryId}");
+                var response = await _httpClient.DeleteAsync($"categories/{categoryId}");
                 return response.IsSuccessStatusCode;
             }
             catch (Exception)
@@ -164,7 +167,7 @@ namespace uts
         {
             try
             {
-                var response = await _httpClient.GetAsync($"v1/Categories/{categoryId}");
+                var response = await _httpClient.GetAsync($"categories/{categoryId}");
                 if (response.IsSuccessStatusCode)
                 {
                     return await response.Content.ReadFromJsonAsync<Categories>();

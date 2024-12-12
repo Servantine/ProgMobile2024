@@ -17,7 +17,10 @@
                    WidthRequest="200" 
                    HorizontalOptions="Center" />
 
-            
+
+            <Entry x:Name="UsernameEntry" Placeholder="Username" />
+            <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True" />
+
             <Button Text="Login" 
                     FontSize="Medium"
                     BackgroundColor="#007AFF"
@@ -25,6 +28,7 @@
                     CornerRadius="10"
                     WidthRequest="200"
                     Clicked="OnLoginButtonClicked" />
+
 
         </VerticalStackLayout>
     </ContentPage.Content>
