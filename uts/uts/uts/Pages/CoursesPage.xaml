@@ -8,6 +8,10 @@
                      Order="Primary" 
                      Priority="0"
                      Clicked="OnCategoryButtonClicked"/>
+        <ToolbarItem Text="Users" 
+     Order="Primary" 
+     Priority="0" 
+     Clicked="OnUsersButtonClicked"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>

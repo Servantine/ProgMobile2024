@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="uts.Pages.InstructorPage"
+             Title="InstructorPage">
+    <StackLayout>
+
+        <Label Text="Users List" 
+       FontSize="Large" 
+       FontAttributes="Bold" 
+       HorizontalOptions="Center" 
+       Margin="0,20,0,10" />
+
+
+        <Button Text="Add New Users" 
+        BackgroundColor="Blue" 
+        TextColor="White" 
+        CornerRadius="8" 
+        HorizontalOptions="End" 
+        Margin="10"
+        Clicked="OnAddUserClicked">
+
+        </Button>
+
+
+        <CollectionView x:Name="UsersCollectionView" 
+                ItemsLayout="VerticalGrid, 2" 
+                VerticalOptions="FillAndExpand">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10" 
+                         Margin="5" 
+                         BackgroundColor="LightGray" 
+                         Orientation="Vertical" 
+                         HorizontalOptions="FillAndExpand">
+
+
+                        <Label FontSize="Small" 
+       FontAttributes="Bold" 
+       TextColor="Black" 
+       HorizontalOptions="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Users Email: " />
+                                    <Span Text="{Binding Email}" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <Label FontSize="Small" 
+       TextColor="Black" 
+       HorizontalOptions="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Name: " />
+                                    <Span Text="{Binding UserName}" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <Label FontSize="Small" 
+       TextColor="Black" 
+       HorizontalOptions="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Intructors ID: " />
+                                    <Span Text="{Binding InstructorId}" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <Button Text="Assign Role" 
+                        BackgroundColor="DodgerBlue" 
+                        TextColor="White" 
+                        HorizontalOptions="FillAndExpand"
+                        Clicked="OnAssignRoleClicked"
+                                
+                                CommandParameter="{Binding UserName}" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

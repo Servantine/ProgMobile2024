@@ -41,6 +41,12 @@ public partial class CoursesPage : ContentPage
 
         await Navigation.PushAsync(new MainPage());
     }
+    
+    private async void OnUsersButtonClicked(object sender, EventArgs e)
+    {
+
+        await Navigation.PushAsync(new InstructorPage());
+    }
     private async void OnAddCourseClicked(object sender, EventArgs e)
     {
         try

@@ -99,6 +99,31 @@ namespace uts
                 return false;
             }
         }
+        public async Task<bool> AssignRoleAsync(object roleAssignment)
+        {
+            try
+            {
+                var response = await _httpClient.PostAsJsonAsync("registeruserrole", roleAssignment);
+                return response.IsSuccessStatusCode;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public async Task<bool> PostUsersAsync(Users user)
+        {
+            try
+            {
+                var response = await _httpClient.PostAsJsonAsync("users", user);
+                return response.IsSuccessStatusCode;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
         public async Task<bool> PostCourseAsync(Courses courses)
         {
             try
@@ -250,6 +275,33 @@ namespace uts
         {
             return await _httpClient.GetFromJsonAsync<List<Instructors>>("https://actbackendseervices.azurewebsites.net/api/instructors");
         }
+
+        public async Task<List<Users>> GetUsersAsync()
+        {
+            var response = await _httpClient.GetFromJsonAsync<List<Users>>("https://actbackendseervices.azurewebsites.net/api/users");
+            return response ?? new List<Users>();
+        }
+
+        public async Task<List<UserInstructorViewModel>> GetUserInstructorDataAsync()
+        {
+            var users = await GetUsersAsync();
+            var instructors = await GetInstructorsAsync();
+
+            var result = (from user in users
+                          join instructor in instructors
+                          on user.UserName equals instructor.userName
+                          select new UserInstructorViewModel
+                          {
+                              Id = user.Id,
+                              Email = user.Email,
+                              UserName = user.UserName,
+                              FullName = user.FullName,
+                              InstructorId = instructor.instructorId
+                          }).ToList();
+
+            return result;
+        }
+
 
 
 

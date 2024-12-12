@@ -26,7 +26,10 @@
         <ShellContent ContentTemplate="{DataTemplate pages:CoursesPage}" />
     </FlyoutItem>
     
-    
+    <FlyoutItem Title="Users" Icon="courses_icon.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:InstructorPage}" />
+    </FlyoutItem>
+
 
 
 </Shell>
