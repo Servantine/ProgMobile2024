@@ -33,8 +33,8 @@ public partial class login : ContentPage
             {
 
                 var responseData = JsonSerializer.Deserialize<LoginResponse>(await response.Content.ReadAsStringAsync());
-                App.AuthToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InB1dHJpYXZhbnRpbiIsInJvbGUiOiJhZG1pbiIsIm5iZiI6MTczMzk3NzgxOCwiZXhwIjoxNzMzOTc5NjE4LCJpYXQiOjE3MzM5Nzc4MTh9.cRsT2cBn3PlyZZ2LwCqHKZVAG2J2LB07MFQ8KEGIJaE"; // Simpan token ke App.AuthToken
-                await Application.Current.MainPage.DisplayAlert("Login Successful", $"Token: {App.AuthToken}", "OK");
+                
+                
                 // Simpan token menggunakan Secure Storage
                 if (!string.IsNullOrEmpty(responseData.Token))
                 {
@@ -46,9 +46,27 @@ public partial class login : ContentPage
                 Console.WriteLine($"Token saved: {App.AuthToken}"); // Tambahkan log untuk memverifikasi
                 //var responseData = JsonSerializer.Deserialize<LoginResponse>(await response.Content.ReadAsStringAsync());
                 //App.AuthToken = responseData.Token;
-
+                if (userName.ToLower() == "servantin0123@gmail.com")
+                {
+                    App.AuthToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InB1dHJpYXZhbnRpbiIsInJvbGUiOiJhZG1pbiIsIm5iZiI6MTczNDA2MzMyNCwiZXhwIjoxNzM0MDY1MTI0LCJpYXQiOjE3MzQwNjMzMjR9.W0Mv8nSox5mvgzR-hnbPLaY9hyQQZ7WQROmgz42ystM"; // Simpan token ke App.AuthToken
+                    await Application.Current.MainPage.DisplayAlert("Login Successful", $"Token: {App.AuthToken}", "OK");
+                    await Application.Current.MainPage.DisplayAlert("Login Successful", "Welcome Admin!", "OK");
+                    await Navigation.PushAsync(new MainPage());
+                }
+                else if (userName.ToLower() == "thelordofenvy@gmail.com")
+                {
+                    App.AuthToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InB1dHJpYXZhbnRpbiIsInJvbGUiOiJhZG1pbiIsIm5iZiI6MTczNDA2MzMyNCwiZXhwIjoxNzM0MDY1MTI0LCJpYXQiOjE3MzQwNjMzMjR9.W0Mv8nSox5mvgzR-hnbPLaY9hyQQZ7WQROmgz42ystM"; // Simpan token ke App.AuthToken
+                    await Application.Current.MainPage.DisplayAlert("Login Successful", $"Token: {App.AuthToken}", "OK");
+                    await Application.Current.MainPage.DisplayAlert("Login Successful", "Welcome Dosen!", "OK");
+                    await Navigation.PushAsync(new DosenPage());
+                }
+                else
+                {
+                    await Application.Current.MainPage.DisplayAlert("Login Unsuccessful", "Please Try again", "OK");
+                    await Navigation.PushAsync(new login());
+                }
                 // Navigasi ke halaman utama
-                await Navigation.PushAsync(new MainPage());
+                
             }
 
         }

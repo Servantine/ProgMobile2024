@@ -34,6 +34,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = uts.Pages.CoursesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\CoursesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\CoursesPage.xaml
 
+[D:/\!Kuliah/Progmob new/Phoneword/uts/uts/uts/Pages/DosenPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = uts.Pages.DosenPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DosenPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DosenPage.xaml
+
 [D:/\!Kuliah/Progmob new/Phoneword/uts/uts/uts/Pages/InstructorPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = uts.Pages.InstructorPage.xaml

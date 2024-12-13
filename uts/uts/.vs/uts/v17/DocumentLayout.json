@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\pages\\dosenpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\pages\\dosenpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\pages\\dosenpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\pages\\dosenpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\pages\\coursespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\pages\\coursespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\pages\\coursespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\pages\\coursespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\pages\\instructorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\pages\\instructorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\models\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\models\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\pages\\instructorpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -19,12 +43,12 @@
       "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\pages\\coursespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\pages\\coursespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\models\\userinstructorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\models\\userinstructorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\pages\\instructorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\pages\\instructorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,24 +71,8 @@
       "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\models\\enrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\models\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\models\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\pages\\coursespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\pages\\coursespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|solutionrelative:uts\\pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57593EFA-A639-4F63-ADD8-D3B0133F7792}|uts\\uts.csproj|d:\\!kuliah\\progmob new\\phoneword\\uts\\uts\\uts\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -111,7 +119,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,21 +134,48 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "DosenPage.xaml.cs",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\DosenPage.xaml.cs",
+              "RelativeDocumentMoniker": "uts\\Pages\\DosenPage.xaml.cs",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\DosenPage.xaml.cs",
+              "RelativeToolTip": "uts\\Pages\\DosenPage.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAewEAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:00:54.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DosenPage.xaml",
+              "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\DosenPage.xaml",
+              "RelativeDocumentMoniker": "uts\\Pages\\DosenPage.xaml",
+              "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\DosenPage.xaml",
+              "RelativeToolTip": "uts\\Pages\\DosenPage.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T12:59:53.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UserInstructorViewModel.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Models\\UserInstructorViewModel.cs",
               "RelativeDocumentMoniker": "uts\\Models\\UserInstructorViewModel.cs",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Models\\UserInstructorViewModel.cs",
               "RelativeToolTip": "uts\\Models\\UserInstructorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:29:06.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T09:29:06.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "InstructorPage.xaml.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\InstructorPage.xaml.cs",
               "RelativeDocumentMoniker": "uts\\Pages\\InstructorPage.xaml.cs",
@@ -148,38 +183,35 @@
               "RelativeToolTip": "uts\\Pages\\InstructorPage.xaml.cs",
               "ViewState": "AgIAAHUAAAAAAAAAAAAuwH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:11:13.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T09:11:13.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "InstructorPage.xaml",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\InstructorPage.xaml",
               "RelativeDocumentMoniker": "uts\\Pages\\InstructorPage.xaml",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\InstructorPage.xaml",
               "RelativeToolTip": "uts\\Pages\\InstructorPage.xaml",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAewE4AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAFIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T09:07:57.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T09:07:57.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Users.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Models\\Users.cs",
               "RelativeDocumentMoniker": "uts\\Models\\Users.cs",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Models\\Users.cs",
               "RelativeToolTip": "uts\\Models\\Users.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwA0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T08:43:42.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T08:43:42.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\AppShell.xaml",
               "RelativeDocumentMoniker": "uts\\AppShell.xaml",
@@ -187,38 +219,35 @@
               "RelativeToolTip": "uts\\AppShell.xaml",
               "ViewState": "AgIAABMAAAAAAAAAAAAiwB0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T05:54:03.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T05:54:03.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "CoursesPage.xaml",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\CoursesPage.xaml",
               "RelativeDocumentMoniker": "uts\\Pages\\CoursesPage.xaml",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\CoursesPage.xaml",
               "RelativeToolTip": "uts\\Pages\\CoursesPage.xaml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAANUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T04:51:50.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T04:51:50.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Enrollments.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Models\\Enrollments.cs",
               "RelativeDocumentMoniker": "uts\\Models\\Enrollments.cs",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Models\\Enrollments.cs",
               "RelativeToolTip": "uts\\Models\\Enrollments.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T04:23:50.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T04:23:50.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Instructors.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Models\\Instructors.cs",
               "RelativeDocumentMoniker": "uts\\Models\\Instructors.cs",
@@ -226,12 +255,11 @@
               "RelativeToolTip": "uts\\Models\\Instructors.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T04:22:41.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T04:22:41.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Models\\LoginResponse.cs",
               "RelativeDocumentMoniker": "uts\\Models\\LoginResponse.cs",
@@ -239,25 +267,23 @@
               "RelativeToolTip": "uts\\Models\\LoginResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T19:29:41.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T19:29:41.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Courses.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Models\\Courses.cs",
               "RelativeDocumentMoniker": "uts\\Models\\Courses.cs",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Models\\Courses.cs",
               "RelativeToolTip": "uts\\Models\\Courses.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBQwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T19:28:38.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T19:28:38.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "uts\\AppShell.xaml.cs",
@@ -265,38 +291,35 @@
               "RelativeToolTip": "uts\\AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T16:31:13.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T16:31:13.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\MainPage.xaml",
               "RelativeDocumentMoniker": "uts\\Pages\\MainPage.xaml",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\MainPage.xaml",
               "RelativeToolTip": "uts\\Pages\\MainPage.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-11T16:12:34.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T16:12:34.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "login.xaml",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\login.xaml",
               "RelativeDocumentMoniker": "uts\\Pages\\login.xaml",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\login.xaml",
               "RelativeToolTip": "uts\\Pages\\login.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-11T16:10:12.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T16:10:12.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\App.xaml.cs",
               "RelativeDocumentMoniker": "uts\\App.xaml.cs",
@@ -304,12 +327,11 @@
               "RelativeToolTip": "uts\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T16:09:07.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T16:09:07.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\App.xaml",
               "RelativeDocumentMoniker": "uts\\App.xaml",
@@ -317,38 +339,37 @@
               "RelativeToolTip": "uts\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-11T16:08:53.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T16:08:53.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "login.xaml.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\login.xaml.cs",
               "RelativeDocumentMoniker": "uts\\Pages\\login.xaml.cs",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\login.xaml.cs",
               "RelativeToolTip": "uts\\Pages\\login.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T16:06:48.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ApiService.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\ApiService.cs",
               "RelativeDocumentMoniker": "uts\\ApiService.cs",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\ApiService.cs",
               "RelativeToolTip": "uts\\ApiService.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAAAGkAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAwGkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T16:06:03.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "uts\\Pages\\MainPage.xaml.cs",
@@ -367,14 +388,14 @@
               "RelativeDocumentMoniker": "uts\\Pages\\CoursesPage.xaml.cs",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Pages\\CoursesPage.xaml.cs",
               "RelativeToolTip": "uts\\Pages\\CoursesPage.xaml.cs",
-              "ViewState": "AgIAABgBAAAAAAAAAAAcwCoBAABuAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAIwPgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T12:58:42.207Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\UTSS\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "..\\..\\UTSS\\MainPage.xaml.cs",
@@ -387,20 +408,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\UTSS\\MainPage.xaml",
               "RelativeDocumentMoniker": "..\\..\\UTSS\\MainPage.xaml",
               "ToolTip": "D:\\!Kuliah\\Progmob new\\Phoneword\\UTSS\\MainPage.xaml",
               "RelativeToolTip": "..\\..\\UTSS\\MainPage.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAACBjwCMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAOBvwCMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-28T12:40:04.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\UTSS\\App.xaml.cs",
               "RelativeDocumentMoniker": "..\\..\\UTSS\\App.xaml.cs",
@@ -413,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\UTSS\\App.xaml",
               "RelativeDocumentMoniker": "..\\..\\UTSS\\App.xaml",
@@ -426,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\UTSS\\AppShell.xaml",
               "RelativeDocumentMoniker": "..\\..\\UTSS\\AppShell.xaml",
@@ -439,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "DatabaseHelper.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\UTSS\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "..\\..\\UTSS\\DatabaseHelper.cs",
@@ -452,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Categories.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\uts\\uts\\uts\\Models\\Categories.cs",
               "RelativeDocumentMoniker": "uts\\Models\\Categories.cs",
@@ -465,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Categories.cs",
               "DocumentMoniker": "D:\\!Kuliah\\Progmob new\\Phoneword\\UTSS\\Models\\Categories.cs",
               "RelativeDocumentMoniker": "..\\..\\UTSS\\Models\\Categories.cs",
@@ -473,8 +494,7 @@
               "RelativeToolTip": "..\\..\\UTSS\\Models\\Categories.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:36:07.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T12:36:07.706Z"
             }
           ]
         }
